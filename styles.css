@@ -1,0 +1,25 @@
+/* Style for the gallery container */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Style for each gallery item */
+.gallery-item {
+    margin: 10px;
+}
+
+/* Style for images within gallery items */
+.gallery-item img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ccc;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+/* Hover effect for images */
+.gallery-item img:hover {
+    transform: scale(1.1);
+}
